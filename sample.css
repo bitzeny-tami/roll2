@@ -1,0 +1,56 @@
+.A {
+    margin-right: 40px;
+    margin-left: 250px;
+    font-size: 8cm;
+    color: aquamarine;
+}
+
+.B {
+    margin-right: 40px;
+    margin-left: 200px;
+    font-size: 8cm;
+    color: rgb(102, 215, 215);
+}
+
+.C {
+    margin-right: 40px;
+    margin-left: 200px;
+    font-size: 8cm;
+    color: rgb(214, 131, 131);
+}
+
+.D  {
+    margin-left: 3cm;
+    font-size: 2cm;
+    color: brown;
+}
+
+.F {
+    font-size: 0.7cm;
+}
+
+.G  {
+    margin-left: 4.6cm;
+    padding: 2px 70px 2px 70px;
+    font-size: 200%;
+    background-color: rgb(255, 0, 0);
+    color: rgb(251, 255, 0);
+
+
+
+}
+.K {
+    margin-left: 1cm;
+    font-size: 200%;
+}
+
+.L {
+    margin-left: 20cm;
+    font-size: 170%;
+    color: rgb(51, 0, 255);
+}
+
+.MK {
+    font-size: 5cm;
+    color: rgb(255, 0, 0);
+}

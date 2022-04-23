@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>スロット？</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widthe">
+        <link rel="stylesheet" href="sample.css">
+    </head>
+<body>
+    <p><span id="A" class="A">G</span><span id="B" class="B">O</span><span id="C" class="C">!</span></p>
+    <p class="F" id="n">残りコイン: <span id="p" class="D">10</span><span class="K">枚</span>
+     <br class="J"><br>
+    <input type="button" class='G'value="ロール" id="up" onclick="myfunc1() ; myfunc2()"/>
+    <script>
+  
+
+// オブジェクトと変数の準備
+
+
+
+window.onload = function() {
+
+// オブジェクトと変数の準備
+var count_disp = document.getElementById('p');  
+var count_up_btn = document.getElementById("up");
+
+var count_value = 10;
+
+count_up_btn.onclick = function (){
+     count_value -= 1;
+     count_disp.innerHTML = count_value;
+
+
+
+
+     var m = Math.floor(Math.random() * 8)
+    document.getElementById('A').textContent = m
+   
+    var t = Math.floor(Math.random() * 8);
+    document.getElementById('B').textContent = t;
+    
+    var k = Math.floor(Math.random() * 8);
+    document.getElementById('C').textContent = k;
+
+if(m === t && m === k) {
+            window.open("C:/Users/user/Desktop/新しいフォルダー/Untitled-1.html");       
+    } else if(m === k){
+     window.alert('当たり');
+    } else if(m === t) {
+     window.alert('当たり');
+    } else if(k === t) {
+     window.alert('当たり');
+    }
+    if(count_value === 0) {
+     window.alert('お疲れ様です。');
+} else {
+     document.write(u);
+}
+
+
+
+
+
+
+};
+
+
+
+
+};
+
+
+</script>
+</body>
+</html>
